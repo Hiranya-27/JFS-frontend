@@ -1,0 +1,194 @@
+/* .aboutcard{
+    width: 500px;
+	height:1500px;
+	position: relative;
+	top: 5%;
+	left:32%;
+    background-color: #e4e4e4;
+	border-radius: 20px;
+    
+}
+.aboutp{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    margin-left:24px;
+}
+.abouth2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.aboutnav{
+    top:1%;
+	left:44%;
+	font-size: 26px;
+	font-weight: bold;
+	font-family:monospace;
+	background-color:transparent;
+	position: relative;
+	
+} */
+
+
+
+.icon {
+	margin-bottom: 35px;
+	height: 80px;
+ }
+ 
+ 
+ @media screen and (max-width:768px) {
+ 
+ }
+ 
+ .box-drk-green {
+	 background: rgba(0, 138, 32, 0.8);
+ }
+ 
+ .feature-panel {
+	text-align: left;
+	margin: 60px 0;
+ }
+ @media screen and (min-width:768px) {
+ .box-mod-container {
+	display: flex;
+	justify-content: flex-start;
+	
+ }
+ }
+ 
+ .lp {
+	display: flex;
+	flex-flow: column-reverse;
+	justify-content: flex-start;
+	width: 960px;
+	height: 250px;
+	background-size: cover;
+	vertical-align: bottom;
+ }
+ 
+ .lp:before {
+	 content: '';
+	 position: absolute;
+	 background-color: #EEEEEE;
+	 left: 0;
+	 right: 0;
+	 display: block;
+	 height: 250px;
+	 z-index: -1;
+	/* margin-top: -25px;*/
+	/* background: url("https://placekitten.com/920/250") no-repeat; */
+	background-position: 50% 50%;
+	background-size: cover;
+   /* vertical-align: bottom; */
+ }
+ 
+ .feature-panel:before {
+	 content: '';
+	 position: absolute;
+	 background-color: #ffffff;
+	 left: 0;
+	 right: 0;
+	 display: block;
+	 height: 600px;
+	 z-index: -1;
+	 margin-top: -25px;
+ }
+ 
+ @media screen and (max-width:880px) {
+ .feature-panel {
+	background: #EEEEEE;
+	padding: 2em;
+ }
+ .feature-panel:before {
+	height: 0;
+ }
+ }
+ .heading-style-thin {
+	 font-size: 3rem;
+	 line-height: 1em;
+	 font-weight: lighter;
+	 letter-spacing: -1px;
+ }
+ 
+ @media screen and (max-width:880px) {
+ .heading-style-thin {
+	 font-size: 2.3rem;
+ }
+ }
+ 
+ .header-tile {
+	 width: 35%;
+	 height: 100px;
+	 margin-left: 5%;
+	 padding: 35px 40px 25px 30px;
+	 color: white;
+	 font-weight: 100;
+ }
+ 
+ @media screen and (max-width: 880px) {
+ .lp:before {
+	content: '';
+	top: 0;
+ }
+ }
+ @media screen and (max-width:768px) {
+ .lp {
+	justify-content: center;
+	margin-top: -40px;
+ }
+ .header-tile {
+	width: auto;
+	margin-left: 0;
+ }
+ }
+ 
+ 
+ 
+ section a:link {
+	color: #008A20;
+	text-decoration: underline;
+ }
+ 
+ section a:visited {
+	color: #005B11;
+ }
+ 
+ .section a:hover {
+	text-decoration: none;
+	color: #005B11;
+ }
+ 
+ .header-tile li {
+	 border-top: 0.5px solid #40b05a;
+	 font-size: 18px;
+	 padding: 20px 0;
+	 margin: 0;
+ }
+ 
+ .header-tile li:last-child {
+	border-bottom: none;
+ }
+ 
+ div.header-tile li:hover {
+	font-weight: bold;
+ }
+ 
+ 
+ @media screen and (max-width: 815px) {
+ .content ul li {
+	text-align: center;
+ }
+ }
+ 
+ .column {
+	margin-right: 20px;
+	flex: 1;
+	padding: 30px;
+	background: #eeeeee;
+ }
+ 
+ .column:last-child {
+	margin-right: 0 !important;
+ }
+ 

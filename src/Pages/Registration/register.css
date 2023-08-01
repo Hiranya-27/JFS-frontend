@@ -1,0 +1,8 @@
+.main{ 
+
+    background-image: url("../Registration/education.jpg"); 
+     /* background-color: aquamarine;   */
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: fixed; 
+}  
